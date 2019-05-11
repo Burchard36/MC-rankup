@@ -1,0 +1,24 @@
+ranks:
+  # This is the rank the player needs
+  # To be in
+  default:
+
+    #If this is the last rank set this to true
+    last-rank: false
+
+    # This is the price to rankup FROM THIS RANK
+    price: 5000
+
+    # This is the rank that /rankup moves the player to
+    # NOTE: DO NOT USE PREFIX NAME, USE THE ACTUAL GROUP NAME
+    rank: default1
+
+  default1:
+    last-rank: false
+    price: 10000
+    rank: default2
+
+  default2:
+   last-rank: false
+   price: 0
+   rank: none
